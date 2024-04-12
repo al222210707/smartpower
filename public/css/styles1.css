@@ -1,0 +1,92 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "ABeeZee";
+    /* background: url("./BACKGROUND IMG"); */
+    width: 100%;
+    height: 100vh; /* Ajustado para ajustarse a la altura del viewport */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    overflow: hidden;
+    background: transparent;
+    padding: 20px 18px;
+    margin: 0.7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+title {
+    font-size: 150px;
+}
+
+#opening-div {
+    position: absolute;
+    top: 30%; /* Ajustado para centrar verticalmente */
+    left: 37%; /* Ajustado para centrar horizontalmente */
+    padding-left: 28px;
+}
+
+#opening-div > p {
+    position: absolute;
+    width: 100%;
+}
+
+#opening-div > p:nth-child(1) {
+    top: 28%; /* Ajustado para centrar verticalmente */
+    left: 33%; /* Ajustado para centrar horizontalmente */
+    font-size: 15px;
+}
+
+#opening-div > p:nth-of-type(2) {
+    font-size: 20px;
+    bottom: 0;
+}
+
+#opening-div > p:nth-of-type(3) {
+    right: 35%;
+    top: 93%;
+}
+
+triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 6.25px solid transparent;
+    border-left: 12.5px solid aqua;
+    border-bottom: 6.25px solid transparent;
+}
+
+modal {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Ajustado para ajustarse a la altura del viewport */
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
